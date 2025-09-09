@@ -86,8 +86,8 @@ const Banner = () => {
               variant="contained"
               startIcon={
                 <img
-                  src="src\assets\netflix-icon.svg" // URL de tu imagen
-                  alt="icon"
+                  src="/assets/netflix-icon.svg" // URL de tu imagen
+                  alt="netflix"
                   style={{ width: "30px", height: "30px" }} // Ajusta el tamaño de la imagen
                 />
               }

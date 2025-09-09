@@ -10,7 +10,6 @@ import { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import { NextArrow, PrevArrow } from "./components/flechas";
 
 // Configuración del carrusel
@@ -35,9 +34,6 @@ function App() {
       <ResponsiveAppBar />
       <Banner />
 
-      <Stack>
-        <img src="../src/assets/img2pelisNetflix.png" alt="" />
-      </Stack>
       <Stack>
         <Typography
           variant="h2"
@@ -103,10 +99,6 @@ function App() {
             <ImgMediaCard key={pelicula.id} image={pelicula.image} />
           ))}
         </Slider>
-      </Stack>
-
-      <Stack sx={{ mt: 2 }}>
-        <img src="../src/assets/imagenPelis.png" alt="" />
       </Stack>
 
       <Stack>

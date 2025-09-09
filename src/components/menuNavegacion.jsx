@@ -13,6 +13,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import { Link } from "react-router-dom";
+import netflix01 from "../assets/netflix-01.svg";
 
 const pages = [
   "Inicio",
@@ -191,9 +192,9 @@ function ResponsiveAppBar() {
                 sx={{ p: 0, mt: 1, mb: 3, marginRight: 1 }}
               >
                 <Avatar
+                  src={netflix01}
                   alt="Remy Sharp"
                   width="100%"
-                  src="src\assets\netflix-01.svg"
                   sx={{ borderRadius: 0, width: 30, height: 30 }}
                 />
               </IconButton>
